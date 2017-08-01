@@ -32,6 +32,8 @@ Location.create(
   Event.create(
     name: FFaker::Sport.name,
     date: ((rand + 0.5) * 20).days.ago,
+    capacity: 1000,
+    city: 'Toronto'
   )
 
 end
